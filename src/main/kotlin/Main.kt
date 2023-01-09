@@ -1,5 +1,6 @@
 fun main() {
     taskOne()
+    task2()
 }
 
 fun taskOne(){
@@ -14,4 +15,8 @@ fun taskOne(){
         counter++
     }
     println(counter)
+}
+
+fun task2(){
+
 }
