@@ -18,5 +18,7 @@ fun taskOne(){
 }
 
 fun task2(){
-
+    //2.7. Удалить из сообщения все однобуквенные слова (вместе с лишними пробелами).
+    val str = "This is an example of a meaningful text, and I went to drink tea".split(" ")
+    for( i in str ) if(i.length != 1) print("$i ")
 }
